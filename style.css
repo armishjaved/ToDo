@@ -29,7 +29,7 @@ body {
     color: rgb(0, 87, 29); */
     left: 30%;
     top: 12%;
-    width: 40vh;
+    width: 15rem;
     height: 2.5rem;
     padding-left: 1%;
     border-radius: 0.3rem;
@@ -41,7 +41,7 @@ body {
     height: 2.6rem;
     width: 2.5%;
     top: 12%;
-    left: 51.75%;
+    left: 55.5%;
     border-radius: 0 0.3rem 0.3rem 0;
     background-color: rgb(131, 183, 218);
     color: white;
@@ -54,7 +54,7 @@ body {
     z-index: 1;
     top: 22%;
     left: 30%;
-    width: 41.25rem;
+    width: 20rem;
     min-height: 0vh;
     border: 0;
     background-color: rgb(255, 255, 255);
@@ -81,4 +81,17 @@ body {
 }
 #tasks > i {
     color: grey;
+}
+
+@media screen and (min-width:480px) {
+
+    #backcover input{
+        /* height: 150px; */
+        width: 30rem;
+    }
+    #tasks {
+        width: 41.25rem;
+    }
+    
+
 }
